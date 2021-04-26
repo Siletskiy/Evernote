@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:elevation="5dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/layout1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="visible">
+
+
+
+        <!-- <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <ImageView
+                 android:id="@+id/progressBar1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerInParent="true"
+                 android:src="@drawable/hg_logo" />
+            &lt;!&ndash;<TextView
+                 android:id="@+id/text"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Powered by Caliber IT"
+                 android:textSize="18sp"
+                 android:layout_margin="10dp"
+                 android:textStyle="bold"
+                 android:gravity="center"
+                 android:textColor="#000"/>&ndash;&gt;
+         </RelativeLayout>-->
+
+        <WebView
+            android:id="@+id/webView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"/>
+
+
+        <WebView
+            android:id="@+id/webView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

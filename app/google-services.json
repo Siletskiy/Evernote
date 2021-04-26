@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "936188557266",
+    "project_id": "evernodetest",
+    "storage_bucket": "evernodetest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936188557266:android:ee3f135287253f120dba0b",
+        "android_client_info": {
+          "package_name": "ltd.starthub.game.evernote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936188557266-26ju9ed95ld026vcf5n6fk3mjicsgdq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFjQ_PrbYNMsi86lh1sIcl-TRFoirs7-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936188557266-26ju9ed95ld026vcf5n6fk3mjicsgdq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

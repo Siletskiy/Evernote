@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Evernote</string>
+    <string name="facebook_app_id">1129112764227404</string>
+    <string name="fb_login_protocol_scheme"> fb [APP_ID] </string>
+    <string name="title_activity_puzzleactivity">puzzleactivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+
+    <string name="progress_title">Пожалуйста подождите…</string>
+    <string name="close_button">Закрыть</string>
+    <string name="cancel_button">Отменить</string>
+    <string name="confirmation_close_app">Вы действительно хотите закрыть приложение?</string>
+
+</resources>
